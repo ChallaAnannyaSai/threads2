@@ -42,7 +42,7 @@ def lemmatizer(text):
 
 st.title("Sentiment Analysis App")
 st.markdown("By Anu")
-image = Image.open("sentiment.webg")
+image = Image.open("sentiment.webp")
 st.image(image, use_column_width=True)
 
 st.subheader("Enter your text here:")
